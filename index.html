@@ -1,568 +1,557 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <meta charset="utf-8">
+    <title>Pinnacle Vault Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <title>Pinnacle Vault Services</title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500&display=swap"
-    rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- header section strats -->
-  <header class="header_section">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="#">
-          <div class="logo_box">
-            <img src="images/logo.png" alt="" />
-          </div>
+    <!-- Spinner Start -->
+    <!--<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div> -->
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white">Pinnacle Vault Services</h2>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mr-2">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="service.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact us</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control nav_search-input mr-sm-2 d-none" type="search" placeholder="Search"
-              aria-label="Search" value="" />
-            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-          </form>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- end header section -->
-
-  <!-- slider section -->
-  <section class=" slider_section">
-    <div id="carouselExampleIndicators" class="carousel slide vert" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="slider_box">
-            <div class="fixed_company-detail">
-              <p>
-                Security Guard Company
-              </p>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#about-us" class="nav-item nav-link">About Us</a>
+                <a href="#services" class="nav-item nav-link">Services</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <div class="slider-detail">
-              <div class="slider_detail-heading">
-                <h2>
-                  We Are <span>Pinnacle Vault Services</span>
-                </h2>
-                <h1>
-                  Provided security services
-                </h1>
-              </div>
-              <div class="slider_detail-text">
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <div class="slider_detail-btn">
-                <a href="">
-                  <span>
-                    Read More
-                  </span>
-                  <img src="images/arrow.png" alt="" class="ml-2" />
-                </a>
-              </div>
-            </div>
-          </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone text-primary me-3"></i>+256-783191642</h4>
         </div>
-        <div class="carousel-item">
-          <div class="slider_box">
-            <div class="fixed_company-detail">
-              <p>
-                Security Guard Company
-              </p>
-            </div>
-            <div class="slider-detail">
-              <div class="slider_detail-heading">
-                <h2>
-                  We Are
-                </h2>
-                <h1>
-                  Provided security services
-                </h1>
-              </div>
-              <div class="slider_detail-text">
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <div class="slider_detail-btn">
-                <a href="">
-                  <span>
-                    Read More
-                  </span>
-                  <img src="images/arrow.png" alt="" class="ml-2" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slider_box">
-            <div class="fixed_company-detail">
-              <p>
-                Security Guard Company
-              </p>
-            </div>
-            <div class="slider-detail">
-              <div class="slider_detail-heading">
-                <h2>
-                  We Are
-                </h2>
-                <h1>
-                  Provided security services
-                </h1>
-              </div>
-              <div class="slider_detail-text">
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <div class="slider_detail-btn">
-                <a href="">
-                  <span>
-                    Read More
-                  </span>
-                  <img src="images/arrow.png" alt="" class="ml-2" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
-
-  <!-- end slider section -->
-
-  <!-- welcome section -->
-  <section class="welcome_section layout_padding">
-    <div class="container-fluid">
-      <div class="row">
-        <div class=" col-md-6">
-          <div>
-            <img class="img-fluid" src="images/welcome.jpg" alt="" />
-          </div>
-        </div>
-        <div class=" col-md-6">
-          <div class="welcome_detail">
-            <h3>
-              Welcome
-            </h3>
-            <h2>
-              Welcome security services Company
-            </h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't It is a long established
-              f act that a reader will be distracted by the readable content
-              of a page whe
-            </p>
-            <div class="welcome_detail-btn">
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <img src="images/arrow-black.png" alt="" class="ml-2" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end welcome section -->
-
-  <!-- service section -->
-  <section class="service_section ">
-    <div class="container">
-      <div class="service_detail">
-        <h3>
-          We
-        </h3>
-        <h2>
-          we provide service
-        </h2>
-      </div>
-      <div class="service_img-container">
-        <div class="service_img-box i-box-1">
-          <a href=""> Bank security</a>
-        </div>
-        <div class="service_img-box i-box-2">
-          <a href="">society Guard </a>
-        </div>
-        <div class="service_img-box i-box-3">
-          <a href="">Hotel Security </a>
-        </div>
-        <div class="service_img-box i-box-4">
-          <a href=""> Home security</a>
-        </div>
-      </div>
-      <div class="service_btn">
-        <a href="">
-          <span>
-            Read More
-          </span>
-          <img src="images/arrow-black.png" alt="" class="ml-2" />
-        </a>
-      </div>
-    </div>
-  </section>
-  <!-- end service section -->
-
-  <!-- security section -->
-
-  <!-- <section class="security_section layout_padding">
-    <h3>
-      Security
+    </nav>
+    <!-- Navbar End -->
 
 
-    </h3>
-    <h2>
-      Our Guard
-    </h2>
-    <div class="security_container">
-      <div class="carousel-wrap">
-        <div class="owl-carousel">
-          <div class="item">
-            <div class="security_img-box i-box-1">
-              <a href=""> View More</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="security_img-box i-box-2">
-              <a href=""> View More</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="security_img-box i-box-3">
-              <a href=""> View More</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <div class="security_btn">
-      <a href="">
-        <span>
-          Read More
-        </span>
-        <img src="images/arrow-black.png" alt="" class="ml-2" />
-      </a>
-    </div>
-  </section> -->
-  <!-- end security section -->
-
-
-  <!-- story section -->
-
-  <section class="layout_padding story_section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class=" col-md-6">
-          <div>
-            <img class="img-fluid" src="images/security.jpg" alt="" />
-          </div>
-        </div>
-        <div class=" col-md-6">
-          <div class="story_detail">
-            <h3>
-              Our
-            </h3>
-            <h2>
-              Success Stories
-            </h2>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when
-              looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-              letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-              desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-              search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-              over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            </p>
-            <div class="story_detail-btn">
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <img src="images/arrow-black.png" alt="" class="ml-2" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end story section -->
-
-  <!-- contact section -->
-  <section class="contact_section layout_padding-top">
-    <div class="container-fluid">
-      <div class="row">
-        <!-- <div class=" col-md-6">
-          <div id="map" class="h-100 w-100 ">
-          </div> -->
-        </div>
-        <div class=" col-md-12 contact_form-container">
-          <div class="contact_box">
-            <form action="">
-              <input type="text" placeholder="Your Name">
-              <input type="email" placeholder="Email">
-              <input type="text" placeholder="Phone Number">
-              <input type="text" placeholder="Message">
-              <div>
-                <button type="submit">
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    </div>
-  </section>
-
-  <!-- end contact section -->
-
-  <!-- info section -->
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <!-- <div class=" col-md-4 info_detail">
-          <div>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable.
-            </p>
-          </div>
-        </div> -->
-        <div class=" col-md-4 address_container">
-          <div>
-            <h3>
-              Address:
-            </h3>
-            <div class="address_link-container">
-              <a href="">
-                <img src="images/location.png" alt="">
-                <span>Plot 59-61 Masese Industrial Road
-                </span>
-              </a>
-              <a href="">
-                <img src="images/phone.png" alt="">
-                <span> Tel: +256-783191642
-                </span>
-              </a>
-              <a href="">
-                <img src="images/mail.png" alt="">
-                <span>
-                  Email: info@pinnaclevaultservices.com
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class=" col-md-4 news_container">
-          <div>
-            <!--<div>
-              <h3>
-                newsletter
-
-              </h3>
-              <form action="">
-                <input type="email" placeholder="ENTER YOUR EMAIL">
-                <div>
-                  <button type="submit">
-                    Subscribe
-                  </button>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-2">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/flex-point-security.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <!--<h5 class="text-white text-uppercase mb-3 animated slideInDown">Security Solutions</h5> -->
+                                <h1 class="display-3 text-white animated slideInDown mb-4"><span class="text-primary">Protection is Our Business</h1>
+                                <!-- <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p> -->
+                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a> -->
+                                <!-- <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </form>
-            </div> -->
-            <div class="social_container">
-              <div>
-                <img src="images/fb.png" alt="">
-              </div>
-              <div>
-                <img src="images/twitter.png" alt="">
-              </div>
-              <div>
-                <img src="images/linkedin.png" alt="">
-              </div>
-              <div>
-                <img src="images/youtube.png" alt="">
-              </div>
             </div>
-          </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/security-detail.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <!--<h5 class="text-white text-uppercase mb-3 animated slideInDown">Security Solutions</h5> -->
+                                <h1 class="display-3 text-white animated slideInDown mb-4"><span class="text-primary">Securing Values of Business</h1>
+                                <!-- <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
-
-  <!-- end info section -->
+    <!-- Carousel End -->
 
 
-  <!-- footer section -->
-  <section class="container-fluid footer_section d-flex justify-content-around">
-    <p>
-      Copyright &copy; <script type="text/javascript">
-        document.write(new Date().getFullYear());
-        </script>
-      <a href="">Pinnacle Vault Services</a>
-    </p>
-    <div><p>Designed by <span><a href="https://www.kakebe.com">Kakebe Technologies</a></span></p></div>
-  </section>
-  <!-- footer section -->
+    <!-- About Start -->
+    <div id="about-us" class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/security-2.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp flex-wrap" data-wow-delay="0.3s">
+                    <h6 class="text-secondary text-uppercase mb-3 text-center">About Us</h6>
+                    <div class="row">
+                    <div class="col-12 d-flex flex-wrap">
+                        <div class="text-center mb-5">
+                            <p>Pinnacle Vault Services is a proactive, responsive and reliable security services provider. By providing you with the best people and service, we will earn your trust. Our goal is to be a reliable partner in the course of providing safety solutions to families, businesses, NGOs and relevant government agencies. Security services and management at fair prices.</p>
+                        </div>
+                        <div class="col-12 col-md-6 icon-box-small">
+                          <div class="my-1">
+                            <div class="d-flex justify-content-center p-2 mx-2">
+                              <img src="/img/vision.png">
+                            </div>
+                            <div class="d-flex justify-content-center"><h4>Vision</h4></div>
+                          </div>
+                          <div class="text-center">
+                            <p>For safeguarding valuables and promoting safe and secure deliveries</p>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 icon-box-small">
+                          <div class="my-1">
+                            <div class="icon d-flex justify-content-center p-2 mx-2">
+                              <img src="/img/mission.png">
+                            </div>
+                            <div class="d-flex justify-content-center"><h4>Mission</h4></div>
+                          </div>
+                          <div class="text-center">
+                            <p>Achieving the best security operatives</p>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 icon-box-small">
+                          <div class="my-1">
+                            <div class="col icon d-flex justify-content-center p-2 mx-2">
+                              <img src="/img/values.png">
+                            </div>
+                            <div class="d-flex justify-content-center"><h4>Values</h4></div>
+                          </div>
+                          <div class="text-center">
+                            <p>Security at its best</p>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 icon-box-small">
+                          <div class="my-1">
+                            <div class="icon d-flex justify-content-center p-2 mx-2">
+                              <img src="/img/goal.png">
+                            </div>
+                            <div class="d-flex justify-content-center"><h4>Objectives</h4></div>
+                          </div>
+                          <div class="text-center">
+                            <p>Making safety worthwhile and trusted
+                            </p>
+                          </div>
+                        </div>
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
-  </script>
-  <script type="text/javascript">
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: true,
-      navText: [],
-      autoplay: true,
-      autoplayHoverPause: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 3
-        }
-      }
-    });
-  </script>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-  <script>
-    $(".nav_search-btn").click(function () {
-      if ($(".nav_search-input").hasClass("d-none")) {
-        event.preventDefault();
-        $(".nav_search-input")
-          .animate({
-              left: "-1000px"
-            },
-            "1000000"
-          )
-          .removeClass("d-none");
-      } else {
-        $(".nav_search-input")
-          .animate({
-              left: "0px"
-            },
-            "1000000"
-          )
-          .addClass("d-none");
-      }
-    });
-  </script>
 
-  <script>
-    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-    // Australia.
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-      });
+    <!-- Fact Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Why Partner With Us?</h6>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Call for any query!</h6>
+                            <h3 class="text-primary m-0">+256-783191642</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-6">
+                            <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                <i class="fa fa-users fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">129</h2>
+                                <p class="text-white mb-0">Happy Clients</p>
+                            </div>
+                            <div class="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
+                                <i class="fa fa-ship fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">534</h2>
+                                <p class="text-white mb-0">Guards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Fact End -->
 
-      var image = 'images/maps-and-flags.png';
-      var beachMarker = new google.maps.Marker({
-        position: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-        map: map,
-        icon: image
-      });
-    }
-  </script>
-  <!-- google map js -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
-  </script>
-  <!-- end google map js -->
 
+    <!-- Service Start -->
+    <div id="services" class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Services</h6>
+                <h1 class="mb-5">Explore Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="card-img-top" src="img/s-1.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Safeguarding Valuables</h4>
+                        <p>We safeguard valuable assets such as Money, Gold, Diamonds, and Valuable documents</p>
+                        <a class="btn-slide mt-2" href="#"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="card-img-top" src="img/security-2.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Handling Deliveries</h4>
+                        <p> We provide high security road transportation for your valuable goods</p>
+                        <a class="btn-slide mt-2" href="#"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="card-img-top" src="img/security-3.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Security Details</h4>
+                        <p>Our Personal Security Details are tailor-made to suit any individual or collective threat</p>
+                        <a class="btn-slide mt-2" href="#"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="card-img-top" src="img/security-3.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Detailing</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="btn-slide mt-2" href="#"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
+                    <h1 class="mb-5">We Are Trusted Security Company Since 2010</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Quality Service</h5>
+                            <p class="mb-0">We deliver the professionalism, efficiency, and high-touch service that you deserve.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Equipped Personnel</h5>
+                            <p class="mb-0">Our security team is well equipped with all the necessary tools and transportation logistics.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <i class="fa fa-phone text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>24/7 Telephone Support</h5>
+                            <p class="mb-0">Our 24 hour Call-Out Answering Service provides the support your business needs by delivering reliable helpdesk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/security-2.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Quote Start -->
+    <div id="contact" class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
+                    <h1 class="mb-5">Request A Free Quote!</h1>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-phone fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Call for any query!</h6>
+                            <h3 class="text-primary m-0">+256-783191642</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Phone Number" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Team</h6>
+                <h1 class="mb-5">Expert Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Testimonial</h6>
+                <h1 class="mb-0">Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Plot 59-61 Masese Industrial Road</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+256-783191642</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@pinnaclevaultservices.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Safeguarding Valuables</a>
+                    <a class="btn btn-link" href="">Handling Deliveries</a>
+                    <a class="btn btn-link" href="">Security Details</a>
+                    <a class="btn btn-link" href="">Detailing</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="#about-us">About Us</a>
+                    <a class="btn btn-link" href="#contact">Contact Us</a>
+                    <a class="btn btn-link" href="#services">Our Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        Copyright &copy; <script type="text/javascript">
+                            document.write(new Date().getFullYear());
+                            </script> <a class="border-bottom" href="#">Pinnacle Vault Services</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://kakebe.com">Kakebe Technologies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
